@@ -131,3 +131,5 @@ dist
 
 #Mac Thangs
 .DS_Store
+
+dist/
