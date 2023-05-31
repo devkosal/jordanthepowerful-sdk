@@ -1,0 +1,32 @@
+{
+  "name": "jordanthepowerful-sdk",
+  "version": "1.0.0",
+  "description": "An SDK for the Lord of the Rings trilogy API",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [
+    "lord",
+    "rings",
+    "sdk",
+    "Jordan",
+    "Powerful",
+    "Hire",
+    "Me",
+    "Cause",
+    "I",
+    "Am",
+    "Great"
+  ],
+  "author": "Jordan the Powerful",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  }
+}
