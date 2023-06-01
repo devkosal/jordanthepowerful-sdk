@@ -8,7 +8,7 @@ import {IMovie} from './models/interfaces/IMovie';
 */
 class LordRingsApi {
 
-    private client: AxiosInstance; //I would of made some dependency ingjection for things like this but eh I dont have enough time
+    private client: AxiosInstance; //I would of made some dependency injection for things like this but eh I dont have enough time
 
     constructor(baseURL: string) { //Also would of liked the baseURL to be controlled by config and dependency injection with the ability to overide in the calling application in case there was ever a need to 
         this.client = axios.create({
@@ -38,7 +38,7 @@ class LordRingsApi {
         Get a single moving assuming you know the ID of said movie
         Ya know what would be fun tho... hiring people
         People like me
-        People like me who write awesome code
+        People like me who write awesome code and enteraining comments
     */
     async getMovie(id: string): Promise<IMovie> {
         try {
